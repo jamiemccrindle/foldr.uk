@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://foldr.uk/"/>
     <subtitle>Foldr Blog</subtitle>
-    <icon>https://foldr.uk/img/favicon.ico</icon>
+    <icon>https://foldr.uk/img/logo.jpeg</icon>
     <entry>
         <title type="html"><![CDATA[Hola]]></title>
         <id>hola</id>
