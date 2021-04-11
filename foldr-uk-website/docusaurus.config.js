@@ -7,7 +7,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'jamieccrindle', // Usually your GitHub org/user name.
+  organizationName: 'jamiemccrindle', // Usually your GitHub org/user name.
   projectName: 'foldr.uk', // Usually your repo name.
   themeConfig: {
     navbar: {
