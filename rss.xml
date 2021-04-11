@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Foldr Blog</title>
+        <link>https://foldr.uk/</link>
+        <description>Foldr Blog</description>
+        <lastBuildDate>Sat, 10 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hola]]></title>
+            <link>https://foldr.uk/hola</link>
+            <guid>hola</guid>
+            <pubDate>Sat, 10 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Greetings]]></description>
+        </item>
+    </channel>
+</rss>
