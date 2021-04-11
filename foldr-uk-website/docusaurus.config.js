@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.jpeg',
   organizationName: 'jamiemccrindle', // Usually your GitHub org/user name.
   projectName: 'foldr.uk', // Usually your repo name.
   themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
       title: 'Foldr',
       logo: {
         alt: 'My Site Logo',
-        src: 'https://avatars.githubusercontent.com/u/909696?s=60&v=4',
+        src: 'img/logo.jpeg',
       },
       items: [
         {to: '/', label: 'Blog', position: 'left'},
