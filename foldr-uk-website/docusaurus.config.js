@@ -41,6 +41,10 @@ module.exports = {
               to: 'https://twitter.com/foldr',
             },
             {
+              label: 'GitHub',
+              href: 'https://github.com/jamiemccrindle',
+            },
+            {
               label: 'jamie.mccrindle.org',
               href: 'https://jamie.mccrindle.org',
             },
