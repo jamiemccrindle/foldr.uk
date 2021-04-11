@@ -10,7 +10,8 @@
 	},
 
 	"extensions": [
-		"dbaeumer.vscode-eslint"
+		"dbaeumer.vscode-eslint",
+		"hediet.vscode-drawio"
 	],
 
 	"mounts": [
