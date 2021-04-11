@@ -10,6 +10,9 @@ module.exports = {
   organizationName: 'jamiemccrindle', // Usually your GitHub org/user name.
   projectName: 'foldr.uk', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'Foldr',
       logo: {
@@ -64,7 +67,7 @@ module.exports = {
           routeBasePath: "/", // Set this value to '/'.
           showReadingTime: true,
           editUrl:
-            'https://github.com/jamiemccrindle/foldr.uk/foldr-uk-website/blog/',
+            'https://github.com/jamiemccrindle/foldr.uk/tree/main/foldr-uk-website/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

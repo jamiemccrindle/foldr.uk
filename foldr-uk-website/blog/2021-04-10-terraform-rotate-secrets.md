@@ -8,25 +8,31 @@ author_image_url: https://avatars.githubusercontent.com/u/909696?s=60&v=4
 tags: [terraform, secrets]
 ---
 
-In this series, I'll be using this mechanism to safely rotate Azure Service Principal credentials stored in a GitHub Actions Secret
-using terraform.
+In this series, I'll be describing how to safely rotate Azure Service Principal credentials stored in a GitHub Actions Secret
+using Terraform.
 
-In this blog post, I'll focus on the secret rotation mechanism in terraform.
+In this blog post, I'll focus on how to rotate secrets in Terraform.
 
 Rotating secrets is a Good Thing&trade; as it limits the length of a time a compromised set of credentials can be used for.
 
-If you do implement secret rotation with a single secret a different challenge is ensuring that the secret
-is rotated in the identity provider at the same time as in the services that use the secret or you may have authentication failures.
+It's quite difficult to make secret rotation atomic i.e. changing a secret in your identity provider at exactly the same
+time you change the secret in the system that uses it for authentication. Mismatches between the values will result in 
+authentication failures.
 
-The ideal is where the identity provider supports multiple secrets for a single identity e.g. Azure Service Principals. If that's
+The ideal is where the identity provider supports multiple valid secrets for a single identity e.g. Azure Service Principals. If that's
 the case, you can have 2 secrets active at the same time and rotate them on offset time periods e.g.:
 
 ![password rotation](/img/blog/2021-04-10-terraform-rotate-secrets/rotation.drawio.svg "Secret Rotation")
 
-This mechanism should allow you to pick whatever password expiry window that suits your risk appetite but in this example,
-I'll work with passwords that are valid 60 days.
+:::info
 
-I've set up 2 passwords, one called `even` and one called `odd`.
+This example uses secrets that expire after 60 days and rotates them each month. The mechanism supports rotating secrets more frequently
+so pick an expiry window that meets your risk appetite. The limiting factor is when infrastructure needs to be redeployed after 
+a secret is rotated.
+
+:::
+
+In the terrafrom script below, I've set up 2 passwords, one called `even` and one called `odd`.
 
 The `odd` password rotates at the beginning of the odd months and is the current password for those months i.e.:
 
@@ -36,9 +42,13 @@ And the `even` password rotates at the beginning of the even months and is the c
 
 * February, April, June, August, October, December
 
-The following is the terraform that acheives this:
+And now for the terraform:
 
 ```terraform
+variable "date" {
+    type = string
+}
+
 locals {
   date        = tonumber(var.date)
   odd_keeper  = floor((local.date + 1) / 2)
@@ -61,7 +71,7 @@ resource "random_password" "even" {
   }
   length           = 32
   special          = true
-  override_special = "_%@"
+  override_special = "_%@" 
 }
 
 output "current_secret" {
@@ -69,4 +79,10 @@ output "current_secret" {
                 ? random_password.even.result 
                 : random_password.odd.result
 }
+```
+
+For this to work, you need to supply a `date` variable when you call terraform that contains the current year and month e.g.:
+
+```shell
+terraform apply -auto-approve -var="date=`date +%Y%m`"
 ```
