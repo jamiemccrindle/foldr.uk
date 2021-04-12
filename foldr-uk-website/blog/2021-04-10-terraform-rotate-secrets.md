@@ -84,6 +84,6 @@ terraform apply -auto-approve -var="date=`date +%Y%m`"
 
 :::caution
 
-Terraform will store these secrets in terraform state, so make sure you're (using a backend that is appropriately secured)[https://www.terraform.io/docs/language/state/sensitive-data.html].
+Terraform will store these secrets in terraform state, so make sure you're [using a backend that is appropriately secured](https://www.terraform.io/docs/language/state/sensitive-data.html).
 
 :::
