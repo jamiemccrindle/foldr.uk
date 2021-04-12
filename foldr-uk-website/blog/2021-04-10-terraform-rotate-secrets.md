@@ -68,7 +68,7 @@ resource "random_password" "even" {
 }
 
 output "current_secret" {
-    value = local.date % 2 == 0 
+    value = local.use_even 
                 ? random_password.even.result 
                 : random_password.odd.result
 }
