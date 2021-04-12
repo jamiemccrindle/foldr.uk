@@ -8,11 +8,6 @@ author_image_url: https://avatars.githubusercontent.com/u/909696?s=60&v=4
 tags: [terraform, secrets]
 ---
 
-In this series, I'll be describing how to safely rotate Azure Service Principal credentials stored in a GitHub Actions Secret
-using Terraform.
-
-In this blog post, I'll focus on how to rotate secrets in Terraform.
-
 Rotating secrets is a Good Thing&trade; as it limits the length of a time a compromised set of credentials can be used for.
 
 It's quite difficult to make secret rotation atomic i.e. changing a secret in your identity provider at exactly the same
@@ -86,3 +81,9 @@ For this to work, you need to supply a `date` variable when you call terraform t
 ```shell
 terraform apply -auto-approve -var="date=`date +%Y%m`"
 ```
+
+:::warning
+
+Terraform will store these secrets in terraform state, so make sure you're using a backend that is appropriately secured.
+
+:::
