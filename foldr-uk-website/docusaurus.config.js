@@ -22,7 +22,7 @@ module.exports = {
       items: [
         {to: '/', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/jamiemccrindle/foldr.uk',
+          href: 'https://github.com/jamiemccrindle',
           label: 'GitHub',
           position: 'right',
         },
