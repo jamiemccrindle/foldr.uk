@@ -27,7 +27,7 @@ a secret is rotated.
 
 :::
 
-In the terrafrom script below, I've set up 2 passwords, one called `even` and one called `odd`.
+In the terraform below, I've set up 2 passwords, one called `even` and one called `odd`.
 
 The `odd` password rotates at the beginning of the odd months and is the current password for those months i.e.:
 
