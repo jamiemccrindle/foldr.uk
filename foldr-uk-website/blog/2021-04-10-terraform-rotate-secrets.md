@@ -22,7 +22,7 @@ the case, you can have 2 secrets active at the same time and rotate them on offs
 :::info
 
 This example uses secrets that expire after 60 days and rotates them each month. The mechanism supports rotating secrets more frequently
-so pick an expiry window that meets your risk appetite. The limiting factor is when infrastructure needs to be redeployed after 
+so pick an expiry window that meets your risk appetite. The limiting factor is often when infrastructure needs to be redeployed after 
 a secret is rotated.
 
 :::
