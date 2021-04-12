@@ -55,18 +55,16 @@ resource "random_password" "odd" {
   keepers = {
     "date" = local.odd_keeper
   }
-  length           = 32
+  length           = 64
   special          = true
-  override_special = "_%@"
 }
 
 resource "random_password" "even" {
   keepers = {
     "date" = local.even_keeper
   }
-  length           = 32
+  length           = 64
   special          = true
-  override_special = "_%@" 
 }
 
 output "current_secret" {
