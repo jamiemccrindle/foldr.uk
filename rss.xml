@@ -8,7 +8,7 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Rotate secrets with terraform]]></title>
+            <title><![CDATA[Safely rotate secrets with terraform]]></title>
             <link>https://foldr.uk/terraform-rotate-secrets</link>
             <guid>terraform-rotate-secrets</guid>
             <pubDate>Sat, 10 Apr 2021 00:00:00 GMT</pubDate>

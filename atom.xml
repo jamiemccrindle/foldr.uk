@@ -8,7 +8,7 @@
     <subtitle>Foldr Blog</subtitle>
     <icon>https://foldr.uk/img/logo.jpeg</icon>
     <entry>
-        <title type="html"><![CDATA[Rotate secrets with terraform]]></title>
+        <title type="html"><![CDATA[Safely rotate secrets with terraform]]></title>
         <id>terraform-rotate-secrets</id>
         <link href="https://foldr.uk/terraform-rotate-secrets"/>
         <updated>2021-04-10T00:00:00.000Z</updated>
