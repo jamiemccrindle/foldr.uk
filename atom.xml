@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://foldr.uk/</id>
-    <title>Foldr Blog</title>
+    <title>Jamie McCrindle Blog</title>
     <updated>2021-04-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://foldr.uk/"/>
-    <subtitle>Foldr Blog</subtitle>
+    <subtitle>Jamie McCrindle Blog</subtitle>
     <icon>https://foldr.uk/img/logo.jpeg</icon>
     <entry>
         <title type="html"><![CDATA[Safely rotate secrets with terraform]]></title>
