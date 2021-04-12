@@ -1,6 +1,6 @@
 ---
 slug: terraform-rotate-secrets
-title: Rotate secrets with terraform
+title: Safely rotate secrets with terraform
 author: Jamie McCrindle
 author_title: foldr
 author_url: https://github.com/jamiemccrindle
