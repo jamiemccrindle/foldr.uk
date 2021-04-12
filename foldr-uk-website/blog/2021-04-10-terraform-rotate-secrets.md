@@ -5,7 +5,7 @@ author: Jamie McCrindle
 author_title: foldr
 author_url: https://github.com/jamiemccrindle
 author_image_url: https://avatars.githubusercontent.com/u/909696?s=60&v=4
-tags: [terraform, secrets]
+tags: [terraform, secrets, security]
 ---
 
 Rotating secrets is a Good Thing&trade; as it limits the length of a time a compromised set of credentials can be used for.
