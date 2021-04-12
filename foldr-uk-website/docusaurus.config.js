@@ -14,9 +14,9 @@ module.exports = {
       defaultMode: 'dark',
     },
     navbar: {
-      title: 'Foldr',
+      title: 'Jamie McCrindle',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Jamie McCrindle Logo',
         src: 'img/logo.jpeg',
       },
       items: [
