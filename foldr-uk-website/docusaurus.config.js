@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Foldr',
-  tagline: 'A programming blog by Jamie McCrindle',
+  title: 'Jamie McCrindle',
+  tagline: 'A programming blog',
   url: 'https://foldr.uk',
   baseUrl: '/',
   onBrokenLinks: 'throw',
