@@ -82,8 +82,8 @@ For this to work, you need to supply a `date` variable when you call terraform t
 terraform apply -auto-approve -var="date=`date +%Y%m`"
 ```
 
-:::warning
+:::caution
 
-Terraform will store these secrets in terraform state, so make sure you're using a backend that is appropriately secured.
+Terraform will store these secrets in terraform state, so make sure you're (using a backend that is appropriately secured)[https://www.terraform.io/docs/language/state/sensitive-data.html].
 
 :::
