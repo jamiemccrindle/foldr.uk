@@ -67,6 +67,9 @@ resource "random_password" "even" {
   special          = true
 }
 
+# this example just output's the password
+# but you'd typically use this as a property of
+# the system(s) that need the password.
 output "current_secret" {
     value = local.use_even 
                 ? random_password.even.result 
