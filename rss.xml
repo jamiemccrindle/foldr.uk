@@ -12,7 +12,7 @@
             <link>https://foldr.uk/terraform-rotate-secrets</link>
             <guid>terraform-rotate-secrets</guid>
             <pubDate>Sat, 10 Apr 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[In this series, I'll be describing how to safely rotate Azure Service Principal credentials stored in a GitHub Actions Secret]]></description>
+            <description><![CDATA[Rotating secrets is a Good Thing&trade; as it limits the length of a time a compromised set of credentials can be used for.]]></description>
         </item>
     </channel>
 </rss>
