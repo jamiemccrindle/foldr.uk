@@ -4,9 +4,16 @@
         <title>Jamie McCrindle Blog</title>
         <link>https://foldr.uk/</link>
         <description>Jamie McCrindle Blog</description>
-        <lastBuildDate>Sun, 18 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Microsoft Graph API Terraform Data Source]]></title>
+            <link>https://foldr.uk/microsoft-graph-terraform-data-source</link>
+            <guid>microsoft-graph-terraform-data-source</guid>
+            <pubDate>Mon, 19 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Most Terraform examples that reference permissions from the Microsoft Graph use the GUIDs for the permissions. This makes]]></description>
+        </item>
         <item>
             <title><![CDATA[Bootstrap terraform state in azure]]></title>
             <link>https://foldr.uk/bootstrap-terraform-state-in-azure</link>
