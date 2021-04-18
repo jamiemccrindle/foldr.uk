@@ -10,7 +10,7 @@ tags: [terraform, azure]
 
 It's a good idea to store your Terraform state in a remote backend because:
 
-* Terraform state often contains sensitive information e.g. credentials, access tokens etc. so using a backend that has access control and encrypts the state at rest and in transit will keep it safter.
+* Terraform state often contains sensitive information e.g. credentials, access tokens etc. so using a backend that has access control and encrypts the state at rest and in transit will keep it safer.
 * Your Terraform state can be backed up
 * You can retrieve your state when running scripts in CI / CD pipelines.
 
