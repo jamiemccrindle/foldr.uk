@@ -52,23 +52,28 @@ To run it, you'll need to supply a file with the following variables set:
 `bootstrap.tfvars`
 
 ```
-# the name of the resource group e.g. "rg-mytfstate-shared-001"
+# the name of the resource group
+# e.g. "rg-mytfstate-shared-001"
 resource_group_name = ""
 
-# the name of the storage account e.g. "sttfstate001"
+# the name of the storage account
+# e.g. "sttfstate001"
 storage_account_name = ""
 
-# the name of the container e.g. "tfstate"
+# the name of the container
+# e.g. "tfstate"
 container_name = "tfstate"
 
-# e.g. "West Europe"
+# the location of the resouce group 
+# and storage account e.g. "West Europe"
 location = "West Europe"
 ```
 
 To apply the terraform run the following
 
 ```shell
-# log into azure, this assumes you have sufficient privileges to create resource groups
+# log into azure, this assumes you have sufficient 
+# privileges to create resource groups
 az login
 
 # initialise terraform
