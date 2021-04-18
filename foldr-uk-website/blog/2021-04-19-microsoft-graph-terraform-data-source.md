@@ -80,7 +80,7 @@ required_resource_access {
 }
 ```
 
-::: tip
+:::tip
 
 Note: this works for more than just the Microsoft Graph, you can use the same technique to look up app roles and permissions from any of your
 enterprise applications.
