@@ -12,7 +12,7 @@ The standard way to install Terraform on ubuntu is via `apt` but the instruction
 select a specific version. Most examples of how to install a specific version of terraform in a GitHub action
 just pull the binary directly.
 
-This is how you can install a specific version of Terraform for use in a GitHub action:
+This is how you can install a specific version of Terraform for use in a GitHub action using `apt`:
 
 ```yaml
 name: install-terraform-example
