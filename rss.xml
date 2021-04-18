@@ -4,9 +4,16 @@
         <title>Jamie McCrindle Blog</title>
         <link>https://foldr.uk/</link>
         <description>Jamie McCrindle Blog</description>
-        <lastBuildDate>Sat, 10 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Bootstrap terraform state in azure]]></title>
+            <link>https://foldr.uk/bootstrap-terraform-state-in-azure</link>
+            <guid>bootstrap-terraform-state-in-azure</guid>
+            <pubDate>Sun, 18 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[It's a good idea to store your Terraform state in a remote backend because:]]></description>
+        </item>
         <item>
             <title><![CDATA[Safely rotate secrets with terraform]]></title>
             <link>https://foldr.uk/terraform-rotate-secrets</link>
