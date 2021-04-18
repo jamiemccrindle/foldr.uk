@@ -4,9 +4,16 @@
         <title>Jamie McCrindle Blog</title>
         <link>https://foldr.uk/</link>
         <description>Jamie McCrindle Blog</description>
-        <lastBuildDate>Mon, 19 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Install a specific version of Terraform in a Github Action using apt]]></title>
+            <link>https://foldr.uk/how-to-install-a-specific-version-of-terraform-github-actions-using-apt-get</link>
+            <guid>how-to-install-a-specific-version-of-terraform-github-actions-using-apt-get</guid>
+            <pubDate>Tue, 20 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The standard way to install Terraform on ubuntu is via apt but the instructions typically don't show how to]]></description>
+        </item>
         <item>
             <title><![CDATA[Microsoft Graph API Terraform Data Source]]></title>
             <link>https://foldr.uk/microsoft-graph-terraform-data-source</link>
