@@ -39,7 +39,7 @@ And the `even` password rotates at the beginning of the even months and is the c
 
 And now for the terraform:
 
-```terraform
+```hcl
 variable "date" {
     type = string
 }

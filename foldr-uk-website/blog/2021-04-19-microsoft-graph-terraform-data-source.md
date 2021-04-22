@@ -15,7 +15,7 @@ to do code reviews where reviewers typically just believe the comment that descr
 This is what the code for the required_resource_access for an azure ad application for k8s looks like using just the GUIDs 
 (this is from a real example online):
 
-```terraform
+```hcl
 required_resource_access {
   resource_app_id = "00000003-0000-0000-c000-000000000000"
   resource_access {
@@ -40,7 +40,7 @@ the Microsoft Graph.
 
 You can look this up as a data source using Terraform as follows:
 
-```terraform
+```hcl
 data "azuread_service_principal" "graph" {
     # graph api application id
     application_id = "00000003-0000-0000-c000-000000000000"
@@ -50,7 +50,7 @@ data "azuread_service_principal" "graph" {
 This will return a data source that has all of the oauth2 permissions and app roles for the Microsoft Graph. They can be awkward to
 work with, so I'll usually create a new object that maps the permission name to the permission id e.g.:
 
-```terraform
+```hcl
 locals {
     graph = {
         application_id = data.azuread_service_principal.graph.application_id
@@ -62,7 +62,7 @@ locals {
 
 Using this, the example above would look like:
 
-```terraform
+```hcl
 required_resource_access {
   resource_app_id = local.graph.application_id
   resource_access {

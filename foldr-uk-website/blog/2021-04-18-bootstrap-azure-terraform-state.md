@@ -20,7 +20,7 @@ This stores your state in an Azure Storage Account. The following Terraform will
 
 `main.tf`
 
-```terraform
+```hcl
 resource "azurerm_resource_group" "terraform_state" {
   name     = var.resource_group_name
   location = var.location
@@ -51,7 +51,7 @@ To run it, you'll need to supply a file with the following variables set:
 
 `bootstrap.tfvars`
 
-```
+```hcl
 # the name of the resource group
 # e.g. "rg-mytfstate-shared-001"
 resource_group_name = ""
