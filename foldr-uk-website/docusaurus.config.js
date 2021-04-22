@@ -56,6 +56,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Jamie McCrindle. Built with Docusaurus.`,
     },
+    prism: {
+      additionalLanguages: ['powershell', 'csharp', 'hcl'],
+    },
   },
   presets: [
     [
@@ -63,6 +66,15 @@ module.exports = {
       {
         docs: false,
         blog: {
+          blogTitle: 'Jamie McCrindle',
+          blogDescription: 'A programming blog',
+          /**
+           * Number of blog post elements to show in the blog sidebar
+           * 'ALL' to show all blog posts
+           * 0 to disable
+           */
+          blogSidebarCount: 5,
+          postsPerPage: 1, // if not specified then http://localhost:3000/ will be an empty screen
           path: "./blog",
           routeBasePath: "/", // Set this value to '/'.
           showReadingTime: true,
