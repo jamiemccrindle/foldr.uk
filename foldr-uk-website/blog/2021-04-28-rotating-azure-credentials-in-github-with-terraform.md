@@ -155,7 +155,7 @@ resource "github_actions_secret" "arm_tenant_id" {
 ## Using the module
 
 ```hcl
-module "bicep_azure_function_app_demo_sp_secrets" {
+module "example_github_azure" {
   source                = "LOCATION_OF_MODULE"
   subscription_id       = AZURE_SUBSCRIPTION_ID
   tenant_id             = AZURE_TENANT_ID
