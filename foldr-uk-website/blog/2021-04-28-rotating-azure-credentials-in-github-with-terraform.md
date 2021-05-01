@@ -87,8 +87,7 @@ resource "random_password" "odd" {
   keepers = {
     "date" = local.odd_keeper
   }
-  length  = 36
-  special = false
+  length  = 64
 }
 
 resource "random_uuid" "even" {
@@ -106,8 +105,7 @@ resource "random_password" "even" {
   keepers = {
     "date" = local.even_keeper
   }
-  length  = 36
-  special = false
+  length  = 64
 }
 
 resource "github_actions_secret" "terraform" {
@@ -154,7 +152,7 @@ resource "github_actions_secret" "arm_tenant_id" {
 }
 ```
 
-# Using the module
+## Using the module
 
 ```hcl
 module "bicep_azure_function_app_demo_sp_secrets" {
