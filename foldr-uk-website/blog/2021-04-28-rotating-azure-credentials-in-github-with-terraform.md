@@ -165,3 +165,5 @@ module "example_github_azure" {
   date                  = var.date
 }
 ```
+
+To see it in action, have a look at this repository [https://github.com/jamiemccrindle/azure-rotate-service-principal-github-secrets](https://github.com/jamiemccrindle/azure-rotate-service-principal-github-secrets)
