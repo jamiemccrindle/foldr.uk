@@ -15,6 +15,13 @@
             <description><![CDATA[Azure App Service with custom containers is a convenient way to host docker containers in Azure. While there]]></description>
         </item>
         <item>
+            <title><![CDATA[Keep your Azure Costs low by removing dev resources from resource groups on a schedule.]]></title>
+            <link>https://foldr.uk/github-actions-schedule-to-delete-resources-from-resource-group</link>
+            <guid>github-actions-schedule-to-delete-resources-from-resource-group</guid>
+            <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have a Visual Studio subscription that gives me £40.00 of Azure Credit each month to experiment in Azure. I find it relatively easy to spend this if I'm not careful about deleting resources after I've spun them up. Fortunately, I can use a GitHub Actions workflow on a schedule to save me when I forget.]]></description>
+        </item>
+        <item>
             <title><![CDATA[How to rotate your AZURE_CREDENTIALS in GitHub with Terraform]]></title>
             <link>https://foldr.uk/rotating-azure-credentials-in-github-with-terraform</link>
             <guid>rotating-azure-credentials-in-github-with-terraform</guid>

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{89:function(e){e.exports=JSON.parse('{"permalink":"/page/5","page":5,"postsPerPage":1,"totalPages":7,"totalCount":7,"previousPage":"/page/4","nextPage":"/page/6","blogDescription":"A programming blog","blogTitle":"Jamie McCrindle"}')}}]);
