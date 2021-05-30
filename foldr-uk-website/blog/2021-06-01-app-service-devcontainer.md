@@ -8,6 +8,10 @@ author_image_url: https://avatars.githubusercontent.com/u/909696?s=60&v=4
 tags: [azure, bicep, app-service, docker, devcontainer]
 ---
 
+I love Visual Studio Code devcontainers. I'm quite excited about CodeSpaces and I've applied for the beta but haven't got access yet. I could spin up a VM in Azure but I was curious if I could use an App Service with a custom container instead. 
+
+What follows are instructions on how to get a remote devcontainer running in an App Service over SSH.
+
 ## Creating an app service compatible devcontainer image
 
 In order to connect to your app service devcontainer via, you'll need to configure it's sshd as documented in the [Configure a custom container for Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/configure-custom-container?pivots=container-linux#detect-https-session) guide from Microsoft.
@@ -94,6 +98,24 @@ Then click Open Folder on the left and selected /workspaces/NAME_OF_YOUR_REPO an
 
 To see a working example of the setup, have a look at https://github.com/jamiemccrindle/bicep-app-service-container
 
-# How much will this cost?
+## How much will this cost?
 
 I've picked a relatively snappy P1v3 which has 2 cores and 8GB of RAM. Assuming a working year of approximately 48 weeks, working for 5 days a week with the machine running for half the day, a devcontainer running in an app service would cost £30.95 per developer.
+
+## Troubleshooting
+
+### My app service has restarted and I can't connect
+
+If your app service restarts, you'll need to copy your public ssh key again. Also, you'll have an old entry in your known_hosts file. If you try and ssh into your machine you'll see this delightful message:
+
+```shell
+$ ssh root@localhost -p 61000
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+```
+
+Simply delete the offending line from your known hosts file. You could also switch off host key checking using `StrictHostKeyChecking no` in your ssh config file but you'd potentially open yourself up to man-in-the-middle attacks.
