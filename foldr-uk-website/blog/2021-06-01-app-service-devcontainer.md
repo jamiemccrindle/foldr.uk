@@ -92,6 +92,8 @@ git clone SSH_URL_FOR_YOUR_REPOSITORY
 
 Then click Open Folder on the left and selected /workspaces/NAME_OF_YOUR_REPO and you should be good to go.
 
+To see a working example of the setup, have a look at https://github.com/jamiemccrindle/bicep-app-service-container
+
 # How much will this cost?
 
 I've picked a relatively snappy P1v3 which has 2 cores and 8GB of RAM. Assuming a working year of approximately 48 weeks, working for 5 days a week with the machine running for half the day, a devcontainer running in an app service would cost £30.95 per developer.
