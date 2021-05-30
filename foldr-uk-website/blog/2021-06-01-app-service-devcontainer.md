@@ -14,7 +14,7 @@ What follows are instructions on how to get a remote devcontainer running in an 
 
 :::caution note
 
-While this does appear to work, it seems a little fragile. The connection times out sporadically and I haven't used it to do development in earnest yet.
+While this does appear to work, it seems a little fragile. The connection times out sporadically and I haven't used it to do development in earnest yet, so caveat emptor.
 
 :::
 
