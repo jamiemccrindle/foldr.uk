@@ -118,4 +118,4 @@ Someone could be eavesdropping on you right now (man-in-the-middle attack)!
 It is also possible that a host key has just been changed.
 ```
 
-Simply delete the offending line from your known hosts file. You could also switch off host key checking using `StrictHostKeyChecking no` in your ssh config file but you'd potentially open yourself up to man-in-the-middle attacks.
+Simply delete the offending line from your known hosts file. You could also switch off host key checking using `StrictHostKeyChecking no` and `UserKnownHostsFile /dev/null` in your ssh config file but you'd potentially open yourself up to man-in-the-middle attacks.
