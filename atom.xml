@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://foldr.uk/</id>
     <title>Jamie McCrindle Blog</title>
-    <updated>2021-04-28T00:00:00.000Z</updated>
+    <updated>2021-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://foldr.uk/"/>
     <subtitle>Jamie McCrindle Blog</subtitle>
     <icon>https://foldr.uk/img/logo.jpeg</icon>
+    <entry>
+        <title type="html"><![CDATA[Building an Azure App Service with a customer container using Bicep]]></title>
+        <id>azure-bicep-app-service-custom-container</id>
+        <link href="https://foldr.uk/azure-bicep-app-service-custom-container"/>
+        <updated>2021-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Azure App Service with custom containers is a convenient way to host docker containers in Azure. While there]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to rotate your AZURE_CREDENTIALS in GitHub with Terraform]]></title>
         <id>rotating-azure-credentials-in-github-with-terraform</id>
