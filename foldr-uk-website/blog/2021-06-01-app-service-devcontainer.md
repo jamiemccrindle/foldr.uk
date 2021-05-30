@@ -8,7 +8,7 @@ author_image_url: https://avatars.githubusercontent.com/u/909696?s=60&v=4
 tags: [azure, bicep, app-service, docker, devcontainer]
 ---
 
-I love Visual Studio Code devcontainers. I'm quite excited about CodeSpaces and I've applied for the beta but haven't got access yet. I could spin up a VM in Azure but I was curious if I could use an App Service with a custom container instead. 
+I love Visual Studio Code devcontainers. I was curious if you could use an App Service with a custom container as a remote devcontainer.
 
 What follows are instructions on how to get a remote devcontainer running in an App Service over SSH.
 
