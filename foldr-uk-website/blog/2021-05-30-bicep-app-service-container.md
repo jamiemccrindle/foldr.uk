@@ -18,7 +18,7 @@ Azure Container Registry has a number of authentication mechanisms for pulling d
 
 :::info note
 
-Scope Maps and Scope Map Tokens are currently in preview, so use with caution.
+Scope Maps and Scope Map Tokens are currently in preview, so use with caution in production.
 :::
 
 ## Setting up your ACR
