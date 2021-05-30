@@ -4,9 +4,16 @@
         <title>Jamie McCrindle Blog</title>
         <link>https://foldr.uk/</link>
         <description>Jamie McCrindle Blog</description>
-        <lastBuildDate>Sun, 30 May 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jun 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Running a devcontainer in an Azure App Service]]></title>
+            <link>https://foldr.uk/azure-app-service-devcontainer</link>
+            <guid>azure-app-service-devcontainer</guid>
+            <pubDate>Tue, 01 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Creating an app service compatible devcontainer image]]></description>
+        </item>
         <item>
             <title><![CDATA[Building an Azure App Service with a customer container using Bicep]]></title>
             <link>https://foldr.uk/azure-bicep-app-service-custom-container</link>
