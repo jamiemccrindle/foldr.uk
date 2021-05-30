@@ -12,6 +12,13 @@ I love Visual Studio Code devcontainers. I'm quite excited about CodeSpaces and 
 
 What follows are instructions on how to get a remote devcontainer running in an App Service over SSH.
 
+:::caution note
+
+While this does appear to work, it seems a little fragile. The connection times out sporadically and I haven't used it to do development in earnest yet.
+
+:::
+
+
 ## Creating an app service compatible devcontainer image
 
 In order to connect to your app service devcontainer via, you'll need to configure it's sshd as documented in the [Configure a custom container for Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/configure-custom-container?pivots=container-linux#detect-https-session) guide from Microsoft.
