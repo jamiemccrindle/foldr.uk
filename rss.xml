@@ -12,7 +12,7 @@
             <link>https://foldr.uk/azure-app-service-devcontainer</link>
             <guid>azure-app-service-devcontainer</guid>
             <pubDate>Tue, 01 Jun 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[I love Visual Studio Code devcontainers. I'm quite excited about CodeSpaces and I've applied for the beta but haven't got access yet. I could spin up a VM in Azure but I was curious if I could use an App Service with a custom container instead.]]></description>
+            <description><![CDATA[I love Visual Studio Code devcontainers. I was curious if you could use an App Service with a custom container as a remote devcontainer.]]></description>
         </item>
         <item>
             <title><![CDATA[Building an Azure App Service with a customer container using Bicep]]></title>
