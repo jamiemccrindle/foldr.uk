@@ -1,6 +1,6 @@
 ---
 slug: azure-bicep-app-service-custom-container
-title: Building an Azure App Service with a customer container using Bicep
+title: Building an Azure App Service with a custom container using Bicep
 author: Jamie McCrindle
 author_title: foldr
 author_url: https://github.com/jamiemccrindle
