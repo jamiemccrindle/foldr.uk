@@ -9,7 +9,7 @@ tags: [azure, bicep, app-service, docker]
 ---
 
 Azure App Service with custom containers is a convenient way to host docker containers in Azure. While there
-are a number of tutorials on how to do this with `az cli` there aren't too many the show how to do it with
+are a number of tutorials on how to do this with `az cli` there aren't too many that show how to do it with
 ARM templates or Azure Bicep. Read on to see how to set up an Azure Container Registry, create scope maps and scope mapped tokens, build and push a custom image and finally use that custom image in your Azure App Service.
 
 ## First, a word on scope maps and tokens
