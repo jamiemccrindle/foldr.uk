@@ -91,7 +91,7 @@ ACR_PULL_TOKEN=$(az acr token credential generate -n bicepAppServiceContainer -r
 
 This will generate the passwords and set ACR_PULL_TOKEN to be the value of one of the generated passwords.
 
-## Setting up your App Service with Custom Container
+## Setting up your App Service with a Custom Container
 
 Use the bicep below to create a linux App Service plan and an App Service that uses your custom container.
 
