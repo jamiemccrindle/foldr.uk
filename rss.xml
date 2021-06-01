@@ -15,7 +15,7 @@
             <description><![CDATA[I love Visual Studio Code devcontainers. I was curious if you could use an App Service with a custom container as a remote devcontainer.]]></description>
         </item>
         <item>
-            <title><![CDATA[Building an Azure App Service with a customer container using Bicep]]></title>
+            <title><![CDATA[Building an Azure App Service with a custom container using Bicep]]></title>
             <link>https://foldr.uk/azure-bicep-app-service-custom-container</link>
             <guid>azure-bicep-app-service-custom-container</guid>
             <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
