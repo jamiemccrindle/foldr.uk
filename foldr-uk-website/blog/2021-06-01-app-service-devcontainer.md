@@ -126,3 +126,10 @@ It is also possible that a host key has just been changed.
 ```
 
 Simply delete the offending line from your known hosts file. You could also switch off host key checking using `StrictHostKeyChecking no` and `UserKnownHostsFile /dev/null` in your ssh config file but you'd potentially open yourself up to man-in-the-middle attacks.
+
+### I'm having trouble getting SSH and Visual Studio Code working together
+
+Have a look here:
+
+* https://code.visualstudio.com/docs/remote/ssh
+* https://code.visualstudio.com/docs/remote/troubleshooting#_ssh-tips
