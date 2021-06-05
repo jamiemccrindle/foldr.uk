@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://foldr.uk/</id>
     <title>Jamie McCrindle Blog</title>
-    <updated>2021-06-01T00:00:00.000Z</updated>
+    <updated>2021-06-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://foldr.uk/"/>
     <subtitle>Jamie McCrindle Blog</subtitle>
     <icon>https://foldr.uk/img/logo.jpeg</icon>
+    <entry>
+        <title type="html"><![CDATA[Exploiting Visual Studio Code Devcontainers]]></title>
+        <id>exploiting-visual-studio-code-devcontainers</id>
+        <link href="https://foldr.uk/exploiting-visual-studio-code-devcontainers"/>
+        <updated>2021-06-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[To quote Scott Hanselman "Visual Studio Code Remote Development may change everything". They are a great way to build consistent development environments which can massively lower the friction for new people to contribute to a code base.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Running a devcontainer in an Azure App Service]]></title>
         <id>azure-app-service-devcontainer</id>
