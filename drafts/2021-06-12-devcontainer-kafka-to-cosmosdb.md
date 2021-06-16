@@ -25,3 +25,28 @@ To get the master key, attach to the emulator container and check start.sh:
 root@32098097d428:/usr/local/bin/cosmos# cat start.sh | grep EMULATOR_KEY=
 EMULATOR_KEY="${AZURE_COSMOS_EMULATOR_KEY:-REDACTED}"
 ```
+
+Use the latest https://github.com/confluentinc/cp-all-in-one/blob/latest/cp-all-in-one/docker-compose.yml
+
+Customise connect container
+
+```Dockerfile
+FROM cnfldemos/cp-server-connect-datagen:0.5.0-6.2.0
+
+RUN confluent-hub install microsoftcorporation/kafka-connect-cosmos:1.0.9-beta --no-prompt
+```
+
+```yaml
+connect:
+  build: 
+    context: .
+    dockerfile: connect.Dockerfile
+```
+
+Create topic users
+
+Send message e.g.
+
+```json
+{"id": "1", "userid": "1", "name": "Bob"}
+```
