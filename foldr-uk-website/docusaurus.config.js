@@ -9,7 +9,13 @@ module.exports = {
   favicon: 'img/logo.jpeg',
   organizationName: 'jamiemccrindle', // Usually your GitHub org/user name.
   projectName: 'foldr.uk', // Usually your repo name.
+  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'G-GZL9B6CNB7',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     colorMode: {
       defaultMode: 'dark',
     },
