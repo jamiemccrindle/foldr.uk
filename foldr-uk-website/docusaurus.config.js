@@ -78,7 +78,7 @@ module.exports = {
            * 'ALL' to show all blog posts
            * 0 to disable
            */
-          blogSidebarCount: 'ALL',
+          blogSidebarCount: 10,
           postsPerPage: 1, // if not specified then http://localhost:3000/ will be an empty screen
           path: "./blog",
           routeBasePath: "/", // Set this value to '/'.
