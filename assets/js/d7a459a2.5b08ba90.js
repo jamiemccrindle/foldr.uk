@@ -1,0 +1,1 @@
+(self.webpackChunkfoldr_uk_website=self.webpackChunkfoldr_uk_website||[]).push([[7978],{7081:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/tags","slug":"visual-studio-code","name":"visual-studio-code","count":1,"permalink":"/tags/visual-studio-code"}')}}]);

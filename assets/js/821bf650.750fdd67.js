@@ -1,0 +1,1 @@
+(self.webpackChunkfoldr_uk_website=self.webpackChunkfoldr_uk_website||[]).push([[8360],{1441:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"secrets","name":"secrets","count":1,"permalink":"/tags/secrets"}')}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunkfoldr_uk_website=self.webpackChunkfoldr_uk_website||[]).push([[6642],{3047:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/tags","slug":"vsc","name":"vsc","count":1,"permalink":"/tags/vsc"}')}}]);

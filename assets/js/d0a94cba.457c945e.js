@@ -1,0 +1,1 @@
+(self.webpackChunkfoldr_uk_website=self.webpackChunkfoldr_uk_website||[]).push([[8973],{7580:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"security","name":"security","count":2,"permalink":"/tags/security"}')}}]);

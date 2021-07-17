@@ -1,0 +1,1 @@
+(self.webpackChunkfoldr_uk_website=self.webpackChunkfoldr_uk_website||[]).push([[6206],{4483:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"terraform","name":"terraform","count":5,"permalink":"/tags/terraform"}')}}]);

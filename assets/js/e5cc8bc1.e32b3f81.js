@@ -1,0 +1,1 @@
+(self.webpackChunkfoldr_uk_website=self.webpackChunkfoldr_uk_website||[]).push([[4130],{8523:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"app-service","name":"app-service","count":2,"permalink":"/tags/app-service"}')}}]);
