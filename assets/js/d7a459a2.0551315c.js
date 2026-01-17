@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[4944],{4374(s){s.exports=JSON.parse('{"allTagsPath":"/tags","slug":"visual-studio-code","name":"visual-studio-code","count":1,"permalink":"/tags/visual-studio-code"}')}}]);

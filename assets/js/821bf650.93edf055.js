@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[5563],{4941(s){s.exports=JSON.parse('{"allTagsPath":"/tags","slug":"secrets","name":"secrets","count":1,"permalink":"/tags/secrets"}')}}]);

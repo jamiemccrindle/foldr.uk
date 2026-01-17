@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[8557],{9788(e){e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"app-service","name":"app-service","count":2,"permalink":"/tags/app-service"}')}}]);

@@ -4,9 +4,16 @@
         <title>Jamie McCrindle Blog</title>
         <link>https://foldr.uk/</link>
         <description>Jamie McCrindle Blog</description>
-        <lastBuildDate>Sat, 05 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[How to Use Your Claude Code Pro Subscription in Docker]]></title>
+            <link>https://foldr.uk/claude-code-pro-subscription-docker</link>
+            <guid>claude-code-pro-subscription-docker</guid>
+            <pubDate>Sat, 17 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you use an API key with Claude Code, you pay for API usage. If you authenticate via OAuth, you use your Pro subscription credits. For those of us who want our subscription to work inside a container, OAuth is the only path.]]></description>
+        </item>
         <item>
             <title><![CDATA[Exploiting Visual Studio Code Devcontainers]]></title>
             <link>https://foldr.uk/exploiting-visual-studio-code-devcontainers</link>
@@ -22,18 +29,18 @@
             <description><![CDATA[I love Visual Studio Code devcontainers. I was curious if you could use an App Service with a custom container as a remote devcontainer.]]></description>
         </item>
         <item>
-            <title><![CDATA[Building an Azure App Service with a custom container using Bicep]]></title>
-            <link>https://foldr.uk/azure-bicep-app-service-custom-container</link>
-            <guid>azure-bicep-app-service-custom-container</guid>
-            <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Azure App Service with custom containers is a convenient way to host docker containers in Azure. While there]]></description>
-        </item>
-        <item>
             <title><![CDATA[Keep your Azure Costs low by removing dev resources from resource groups on a schedule.]]></title>
             <link>https://foldr.uk/github-actions-schedule-to-delete-resources-from-resource-group</link>
             <guid>github-actions-schedule-to-delete-resources-from-resource-group</guid>
             <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[I have a Visual Studio subscription that gives me £40.00 of Azure Credit each month to experiment in Azure. I find it relatively easy to spend this if I'm not careful about deleting resources after I've spun them up. Fortunately, I can use a GitHub Actions workflow on a schedule to save me when I forget.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Building an Azure App Service with a custom container using Bicep]]></title>
+            <link>https://foldr.uk/azure-bicep-app-service-custom-container</link>
+            <guid>azure-bicep-app-service-custom-container</guid>
+            <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Azure App Service with custom containers is a convenient way to host docker containers in Azure. While there]]></description>
         </item>
         <item>
             <title><![CDATA[How to rotate your AZURE_CREDENTIALS in GitHub with Terraform]]></title>

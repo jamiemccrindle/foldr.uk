@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[389],{5945(s){s.exports=JSON.parse('{"allTagsPath":"/tags","slug":"github","name":"github","count":3,"permalink":"/tags/github"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[6792],{8210(e){e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"docker","name":"docker","count":3,"permalink":"/tags/docker"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[2602],{7539(e){e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"bicep","name":"bicep","count":2,"permalink":"/tags/bicep"}')}}]);

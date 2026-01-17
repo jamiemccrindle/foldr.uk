@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[3760],{4349(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"terraform","name":"terraform","count":5,"permalink":"/tags/terraform"}')}}]);

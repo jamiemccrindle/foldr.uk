@@ -1,1 +1,0 @@
-(self.webpackChunkfoldr_uk_website=self.webpackChunkfoldr_uk_website||[]).push([[998],{3383:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"github","name":"github","count":3,"permalink":"/tags/github"}')}}]);

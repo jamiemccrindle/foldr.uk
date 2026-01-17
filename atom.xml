@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://foldr.uk/</id>
     <title>Jamie McCrindle Blog</title>
-    <updated>2021-06-05T00:00:00.000Z</updated>
+    <updated>2026-01-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://foldr.uk/"/>
     <subtitle>Jamie McCrindle Blog</subtitle>
     <icon>https://foldr.uk/img/logo.jpeg</icon>
+    <entry>
+        <title type="html"><![CDATA[How to Use Your Claude Code Pro Subscription in Docker]]></title>
+        <id>claude-code-pro-subscription-docker</id>
+        <link href="https://foldr.uk/claude-code-pro-subscription-docker"/>
+        <updated>2026-01-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you use an API key with Claude Code, you pay for API usage. If you authenticate via OAuth, you use your Pro subscription credits. For those of us who want our subscription to work inside a container, OAuth is the only path.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Exploiting Visual Studio Code Devcontainers]]></title>
         <id>exploiting-visual-studio-code-devcontainers</id>
@@ -22,18 +29,18 @@
         <summary type="html"><![CDATA[I love Visual Studio Code devcontainers. I was curious if you could use an App Service with a custom container as a remote devcontainer.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building an Azure App Service with a custom container using Bicep]]></title>
-        <id>azure-bicep-app-service-custom-container</id>
-        <link href="https://foldr.uk/azure-bicep-app-service-custom-container"/>
-        <updated>2021-05-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Azure App Service with custom containers is a convenient way to host docker containers in Azure. While there]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Keep your Azure Costs low by removing dev resources from resource groups on a schedule.]]></title>
         <id>github-actions-schedule-to-delete-resources-from-resource-group</id>
         <link href="https://foldr.uk/github-actions-schedule-to-delete-resources-from-resource-group"/>
         <updated>2021-05-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I have a Visual Studio subscription that gives me £40.00 of Azure Credit each month to experiment in Azure. I find it relatively easy to spend this if I'm not careful about deleting resources after I've spun them up. Fortunately, I can use a GitHub Actions workflow on a schedule to save me when I forget.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building an Azure App Service with a custom container using Bicep]]></title>
+        <id>azure-bicep-app-service-custom-container</id>
+        <link href="https://foldr.uk/azure-bicep-app-service-custom-container"/>
+        <updated>2021-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Azure App Service with custom containers is a convenient way to host docker containers in Azure. While there]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[How to rotate your AZURE_CREDENTIALS in GitHub with Terraform]]></title>

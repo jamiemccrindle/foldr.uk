@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[6449],{6130(e){e.exports=JSON.parse('{"permalink":"/page/4","page":4,"postsPerPage":1,"totalPages":10,"totalCount":10,"previousPage":"/page/3","nextPage":"/page/5","blogDescription":"A programming blog","blogTitle":"Jamie McCrindle"}')}}]);

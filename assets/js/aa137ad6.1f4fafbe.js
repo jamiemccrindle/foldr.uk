@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[919],{981(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"oauth","name":"oauth","count":1,"permalink":"/tags/oauth"}')}}]);

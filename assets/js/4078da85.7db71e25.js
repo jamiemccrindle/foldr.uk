@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[5810],{1404(e){e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"cybersec","name":"cybersec","count":1,"permalink":"/tags/cybersec"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[3214],{4775(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"ai","name":"ai","count":1,"permalink":"/tags/ai"}')}}]);

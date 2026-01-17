@@ -1,1 +1,0 @@
-(self.webpackChunkfoldr_uk_website=self.webpackChunkfoldr_uk_website||[]).push([[698],{181:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"docker","name":"docker","count":2,"permalink":"/tags/docker"}')}}]);

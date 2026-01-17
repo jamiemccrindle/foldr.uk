@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfoldr_uk_website=globalThis.webpackChunkfoldr_uk_website||[]).push([[864],{1594(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"azure","name":"azure","count":6,"permalink":"/tags/azure"}')}}]);
