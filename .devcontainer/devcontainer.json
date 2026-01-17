@@ -28,7 +28,7 @@
 	"mounts": [
 		"source=foldr-uk-foldr-uk-website-node_modules,target=${containerWorkspaceFolder}/foldr-uk-website/node_modules,type=volume",
 		"source=foldr-uk-foldr-uk-website-docusaurus,target=${containerWorkspaceFolder}/foldr-uk-website/.docusaurus,type=volume"
-	],	
+	],
 
 	"postCreateCommand": "sudo chown -R node ${containerWorkspaceFolder}",
 
