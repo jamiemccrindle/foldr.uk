@@ -2,17 +2,28 @@
 	"name": "Node.js",
 	"build": {
 		"dockerfile": "Dockerfile",
-		"args": { "VARIANT": "14" }
+		"args": { "VARIANT": "20" }
 	},
 
-	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
+	"customizations": {
+		"vscode": {
+			"settings": { 
+				"terminal.integrated.shell.linux": "/bin/bash"
+			},
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"hediet.vscode-drawio"
+			]
+		}
 	},
 
-	"extensions": [
-		"dbaeumer.vscode-eslint",
-		"hediet.vscode-drawio"
-	],
+	"forwardPorts": [3000],
+	"portsAttributes": {
+		"3000": {
+			"label": "Docusaurus",
+			"onAutoForward": "notify"
+		}
+	},
 
 	"mounts": [
 		"source=foldr-uk-foldr-uk-website-node_modules,target=${containerWorkspaceFolder}/foldr-uk-website/node_modules,type=volume",
